@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'waltz_rb'
-  s.version     = '0.0.2'
-  s.date        = '2016-09-11'
+  s.version     = '0.0.3'
+  s.date        = '2016-09-13'
   s.summary     = "Ruby runtime for the Waltz music theory DSL"
   s.description = <<-EOF
     Waltz is a portable music theory library implemented in Forth.

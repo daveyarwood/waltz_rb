@@ -11,7 +11,7 @@ class Waltz
                 :control_stack, :control_words,
                 :compiled
 
-  def initialize
+  def initialize waltz_lib=nil
     @runtime_stack = []
     @control_stack = []
     @compiled = []
@@ -102,6 +102,10 @@ class Waltz
         @control_stack = []
       }
     }
+
+    if waltz_lib
+      compile_and_run waltz_lib
+    end
   end
 
   def state
